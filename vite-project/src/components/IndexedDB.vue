@@ -10,7 +10,7 @@
     <br>
     <h4>Upload Image</h4>
     <p>File Added: {{ uploadedFile }}</p>
-    <p>File Added: {{ deletedFile }}</p>
+    <p>File Deleted: {{ deletedFile }}</p>
     Click Here to upload IMAGE <input type="file" id="uploadFile" accept="image/png, image/jpeg" />
     <button @click="submitImage">Submit</button>
     <br>
